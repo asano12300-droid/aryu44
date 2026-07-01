@@ -1,7 +1,7 @@
 def help(select):
     menu_dict = {
         "yt": "youtubeの動画をダウンロードする",
-        "mv": "word-dict-{version}.debのファイルを移動させます",
+        "mv": "ファイルを移動ができます",
         "help": "ヘルプメニューを出します",
         "word": "単語数を調べます",
         "cope": "単語数のtxtを上書きします"

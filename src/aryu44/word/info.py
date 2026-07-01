@@ -14,9 +14,8 @@ def load_json(select):
         if select == "1":
             with open(dict, 'r', encoding='utf-8') as f:
                 now_dict = json.load(f)
-                if select == "1":
-                    ex_word = len(now_dict)
-                    print(f"単語数: {ex_word}")
+                ex_word = len(now_dict)
+                print(f"単語数: {ex_word}")
         elif select == "2" or select == "3":
             with open(word, 'r', encoding='utf-8') as f:
                 now_dict = json.load(f)

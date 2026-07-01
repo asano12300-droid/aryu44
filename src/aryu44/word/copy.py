@@ -1,10 +1,10 @@
 import json
 import os
 
-def main():
-    word = "/home/asano12300/word/data/dictionary.json"
-    txt = "/home/asano12300/gitproject/word_data.txt"
-    
+def main(ex, to):
+    word = ex
+    txt = to
+
     #JSONファイルの読み込み
     with open(word, 'r', encoding='utf-8') as f:
         data = json.load(f)
